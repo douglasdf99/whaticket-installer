@@ -4,14 +4,14 @@
 
 # app variables
 
-jwt_secret=$(openssl rand -base64 32)
-jwt_refresh_secret=$(openssl rand -base64 32)
+jwt_secret=H4ck3r5215
+jwt_refresh_secret=H4ck3r5215
 
 deploy_password=H4ck3r5215
 
-mysql_root_password=$(openssl rand -base64 32)
+mysql_root_password=H4ck3r5215
 
-db_pass=$(openssl rand -base64 32)
+db_pass=H4ck3r5215
 
 db_user=whaticket
 db_name=whaticket
