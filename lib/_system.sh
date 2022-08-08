@@ -35,6 +35,7 @@ system_git_clone() {
   sleep 2
 
   sudo su - deploy <<EOF
+  rm -R /home/deploy/whaticket/
   git clone https://github.com/douglasdf99/centralWhatsapp /home/deploy/whaticket/
 EOF
 
